@@ -1,0 +1,442 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    height: 250px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-title {
+    max-width: 100vh;
+    padding-top: 4rem;
+}
+
+.header-name {
+    padding-top: 4rem;
+}
+
+.header-box {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 4px solid white;
+}
+.header-box h1 {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 400px;
+    }
+    .header-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90vh;
+        padding-top: 1rem;
+    }
+    .header-title h1 {
+        text-align: center;
+    }
+    .header-name {
+        padding-top: 1rem;
+    }
+}
+
+
+.why {
+    color: black;
+    margin-top: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.why-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.why-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: start;
+    width: 30%;
+    min-width: 300px;
+}
+
+.why-card-icon {
+    margin-top: 1rem;
+}
+.why-card-img {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .why-card-img {
+        width: 60px;
+        height: 60px;
+    }
+    
+}
+
+
+.start {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.start-content {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.start-content h1 {
+    text-align: center;
+}
+.start-btn {
+    color: white;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid white;
+    width: 150px;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.services-offer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.services-content {
+    width: 70%;
+    
+}
+.rectangle {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  .rectangle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rectangle-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media only screen and (max-width: 600px) {
+    .services-content {
+        width: 90%;
+        
+    }
+    
+}
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    color: black;
+  }
+  .text {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+
+.quote {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.quote-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+  .quote-content{
+    width: 70%;
+    text-align: center;
+  }
+
+  .quote-content p {
+    color: gray;
+  }
+  .quote-content a {
+    color: gray;
+  }
+
+
+  .sectors {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .sectors-title {
+    text-align: center;
+  }
+  .sectors-card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectors-card h3 {
+    text-align: center;
+  }
+  .sectors-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sectors-img {
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sectors-img {
+        width: 340px;
+        height: 200px;
+        border-radius: 10px;
+      }
+      .sectors-content {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sectors-title {
+        font-size: 15px;
+      }
+  }
+
+  .achieve-title {
+    text-align: center;
+  }
+  .achieve-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .achieve-text {
+    order: 1;
+    text-align: left;
+    width: 65%;
+  }
+
+  .achieve-text-sec {
+    text-align: left;
+    width: 65%;
+  }
+
+  .achieve-img {
+    order: 2;
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+  }
+  
+  .achieve-img-sec {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+  }
+
+  .achieve_text ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+  }
+  .achieve_text li {
+    padding-bottom: 1rem;
+    font-size: 16px;
+  }
+  /* Optionally, you can add styles to the ticks */
+  .achieve_text ul li:before {
+    content: "\2713"; /* Unicode checkmark symbol ✓ */
+    margin-right: 5px; /* Optional: Add some space between the tick and the text */
+    color: green;
+  }
+  @media only screen and (max-width: 600px) {
+    .achieve-card {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .achieve-text {
+        order: 2;
+        text-align: left;
+        width: 100%;
+      }
+      .achieve-text-sec {
+        text-align: left;
+        width: 100%;
+      }
+    
+      .achieve-img {
+        order: 1;
+        width: 300px;
+        height: 200px;
+      }
+      .achieve-img-sec {
+        width: 300px;
+        height: 200px;
+      }
+    
+  }
+
+
+  .contact {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    
+  }
+  .contact-title {
+    text-align: center;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(241, 239, 239);
+    width: 90%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .input-field {
+    width: 300px;
+    display: grid;
+    margin-bottom: 2rem;
+  }
+
+  .contact-textarea {
+    width: 90%;
+    border-radius: 4px;
+    outline: none; /* Remove default focus outline */
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .contact-input {
+      width: 90%;
+      height: 2.5rem;
+      border: 1px solid #005a66;
+      border-radius: 4px;
+      outline: none; /* Remove default focus outline */
+      padding-left: 0.5rem;
+      padding-top: 0;
+    }
+
+    .input-field-btn {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+    }
+
+    .send-btn {
+      width: 80px;
+      height: 40px;
+      background: #009900;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      padding-top: 10px; 
+    }
+
+    .send-btn:hover {
+      background: #00cc00;
+    }
+
+
+    footer {
+      background-color: #000; /* Black background color */
+      color: #fff; /* Text color */
+      padding: 20px; /* Padding for content */
+      text-align: center; /* Center-align text */
+      position: fixed; /* Fixed position at the bottom */
+      width: 100%; /* Full width */
+      bottom: 0; /* Stick to the bottom */
+    }
